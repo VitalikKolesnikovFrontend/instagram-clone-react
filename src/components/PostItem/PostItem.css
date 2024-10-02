@@ -1,0 +1,7 @@
+.post-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}

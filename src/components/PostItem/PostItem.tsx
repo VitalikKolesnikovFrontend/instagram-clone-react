@@ -1,4 +1,5 @@
 import PostCard from "../PostCard/PostCard";
+import "./PostItem.css";
 
 const PostItem = () => {
   const mockData = [
@@ -35,7 +36,7 @@ const PostItem = () => {
   ];
 
   return (
-    <>
+    <div className="post-item">
       {mockData.map((post) => (
         <PostCard
           key={post.id}
@@ -46,7 +47,7 @@ const PostItem = () => {
           description={post.description}
         />
       ))}
-    </>
+    </div>
   );
 };
 export default PostItem;
