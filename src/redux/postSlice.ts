@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { postThunk } from "./postThunk";
+import { Post } from "../types";
 
 interface PostsState {
-  posts: [];
+  posts: Post[];
   status: boolean;
   error: string | null;
 }

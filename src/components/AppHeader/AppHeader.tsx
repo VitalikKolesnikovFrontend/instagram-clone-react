@@ -20,7 +20,7 @@ export default function AppHeader() {
         <AppBar color="primary" position="static">
           <Toolbar>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Instagram
+              Instagram Clone
             </Typography>
             <Button color="inherit">Login</Button>
           </Toolbar>
