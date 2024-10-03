@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import PostCard from "../PostCard/PostCard";
 import "./PostItem.css";
 import { useEffect } from "react";
-import { postThunk } from "../../redux/postThunk";
+import { postThunk } from "../../redux/posts/postThunk";
 import AppLoader from "../AppLoader/AppLoader";
 import AppError from "../AppError/AppError";
 import { AppDispatch, RootState } from "../../redux/store";

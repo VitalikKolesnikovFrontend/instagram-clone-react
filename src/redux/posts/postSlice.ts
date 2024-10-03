@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { postThunk } from "./postThunk";
-import { Post } from "../types";
+import { Post } from "../../types";
 
 interface PostsState {
   posts: Post[];
